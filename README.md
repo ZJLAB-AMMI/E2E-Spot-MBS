@@ -1,4 +1,4 @@
-# Metric Boosting Strategy of E2E-Spot for Ball Action Spotting: One State-of-the-Art to the SoccerNet Challenge 2023
+# A Metric Boosting Strategy for Model Ensembling for Action Spotting in Videos
 This is the Python code used to implement the E2E-Spot-MBS method as described in the technical report
 
 [//]: # ([**A Metric Boosting Strategy for Model Ensembling for Action Spotting in Videos**  )
@@ -6,7 +6,7 @@ This is the Python code used to implement the E2E-Spot-MBS method as described i
 [//]: # (Luping Wang, Hao Guo, Bin Liu]&#40;https:xx&#41;)
 
 ## Abstract
-This technical report presents our solution to the Ball Action Spotting task submitted to the CVPR'23 SoccerNet Challenge. Details of this challenge can be found at https://www.soccer- net.org/tasks/ball-action-spotting. Our solution achieved a mean Average Precision (mAP@1) of 86.37% in the test phase and 83.47% in the challenge phase. Our approach is developed based on a baseline model termed E2E-Spot [3], which was provided by the organizers of this challenge. We first generated several variants of the E2E-Spot model, resulting in a candidate model set. We then proposed a strategy for selecting appropriate model members from this set and assigning an appropriate weight to each model. The aim of this strategy is to boost the performance metric of the resulting model ensemble. Therefore, we call our approach the metric boosting strategy (MBS). 
+This technical report presents our solution to the Ball Action Spotting task submitted to the CVPR'23 SoccerNet Challenge. Details of this challenge can be found at https://www.soccer-net.org/tasks/ball-action-spotting. Our solution achieved a mean Average Precision (mAP@1) of 86.37% in the test phase and 83.47% in the challenge phase. Our approach is developed based on a baseline model termed E2E-Spot [3], which was provided by the organizers of this challenge. We first generated several variants of the E2E-Spot model, resulting in a candidate model set. We then proposed a strategy for selecting appropriate model members from this set and assigning an appropriate weight to each model. The aim of this strategy is to boost the performance metric of the resulting model ensemble. Therefore, we call our approach the metric boosting strategy (MBS). 
 ## Dataset
 The dataset download can follow [here](https://www.soccer-net.org/data).
 
