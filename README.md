@@ -35,7 +35,7 @@ Install all the required packages.
 execute ```python train_e2e.py``` after setting following specific hyperparameters of each sub-model ```dilate_len, stride, feature_arch, swa, swa_start_epoch```.
 
 **sub-model inference:**
-execute ```python train_e2e.py``` for each trained sub-model.
+execute ```python test_e2e.py``` for each trained sub-model.
 
 ## Metric Boosting Strategy
 - execute ```python metric_boost_ensemble.py``` to achieve the information of selecting sub-model and corresponding weight.
